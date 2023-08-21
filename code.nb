@@ -1,0 +1,6 @@
+i = birdimg.jpg;
+
+ImageBoundingBoxes[i, Entity["Species", "Class:Aves"]]
+
+ImageBoundingBoxes[i, Entity["Species", "Class:Aves"]];
+HighlightImage[i, %]
